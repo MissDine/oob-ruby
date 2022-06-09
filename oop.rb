@@ -1,4 +1,7 @@
-# An object in code is a thing with all the data and all the logic required to complete a task. Objects are models and metaphors for the problems we solve in code
+# An object is some data with a set of attributes and behaviour
+# A class is a blueprint/template for creating objects
+# A class tells us the attributes and behaviours that a particular object will have.
+# Its upto the developer to determine the attributes and behavioutr this class/blueprint will have
 # Class is a custom data type eg Book.... all classes must be an object hence variable name starts with a capital letter
 # Instance of a class is an object eg book 1 and book 2
 # Objects are instances of a class
