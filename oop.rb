@@ -69,18 +69,19 @@ puts book2.author
 
 # Initialize method
 class Names
-    attr_accessor :titles, :lugha
-    def initialize (titles,lugha)
-        @titles = titles,
+    attr_accessor :jina, :lugha
+    def initialize (jina,lugha)
+        @jina = jina,
         @lugha = lugha   
     end 
 end 
 
-name1 = Names.new("Enid","Kisii")
+name1 = Names.new("Enid", "kisii")
 
 name2 = Names.new("Norbert","Ekegusii")
       
 puts name2.lugha
+puts name1.lugha
 
 puts name1.class
 # ruby methods of classes
