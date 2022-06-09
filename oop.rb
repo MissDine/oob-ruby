@@ -87,3 +87,8 @@ puts name1.class
 # ruby methods of classes
 # puts name1.methods
 
+
+
+# INSTANCE AND CLASS VARIABLES/METHODS
+
+
