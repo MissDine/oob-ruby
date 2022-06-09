@@ -10,6 +10,29 @@
 # Instances refer to the individual objects produced from the class.
 # A class is like a template, or a blueprint, for creating objects with similar characteristics.
 # dot notation can be used both to call a method and to access an attribute of an object
+
+# How to create a class and give the class attributes
+class Car
+    # Ruby doesnt accept local variables hence we create instance variables using the @
+    # Instance variables means that each object we create out of this class will a specific attibute eg color and model
+    # attributes
+    @color 
+    @model
+
+    # behaviours
+    def turn_right
+        puts "vuum"
+    end
+
+    def reverse
+        puts "mmmmh"
+    end    
+end    
+
+# create a new car - instance/object of class Car
+car1 = Car.new
+
+
 puts 1.class
 # Everything in a ruby 
 puts 2.is_a?Object
