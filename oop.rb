@@ -18,6 +18,8 @@ class Car
     # attributes
     @color 
     @model
+    # att read/write permissions using attr_accessor
+    attr_accessor :color, :model
 
     # behaviours
     def turn_right
@@ -26,11 +28,17 @@ class Car
 
     def reverse
         puts "mmmmh"
-    end    
+    end 
+    
+      
 end    
 
 # create a new car - instance/object of class Car
 car1 = Car.new
+# car1 will have all the attributes and behaviours of Car
+# we call any of this methods using the dot notation
+car1.reverse
+puts car1.model = "Subaru"
 
 
 puts 1.class
@@ -76,5 +84,5 @@ puts name2.lugha
 
 puts name1.class
 # ruby methods of classes
-puts name1.methods
+# puts name1.methods
 
