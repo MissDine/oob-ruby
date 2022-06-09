@@ -5,6 +5,8 @@
 # Class names start with capital letters because they are stored as constatnts in ruby, they can also be camelCased
 # n instance is a single occurrence of an object. 
 # Instances refer to the individual objects produced from the class.
+# A class is like a template, or a blueprint, for creating objects with similar characteristics.
+# dot notation can be used both to call a method and to access an attribute of an object
 puts 1.class
 # Everything in a ruby 
 puts 2.is_a?Object
@@ -48,5 +50,5 @@ puts name2.lugha
 
 puts name1.class
 # ruby methods of classes
-# puts name1.methods
+puts name1.methods
 
