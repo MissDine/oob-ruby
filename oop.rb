@@ -109,3 +109,12 @@ puts name1.class
 # class variables are denoted by @@
 # Class methods are denoted by the self keyword
 
+class Dog
+    attr_accessor :name, :age
+
+    def initialize 
+        @name = name,
+        @age = age
+    end    
+end    
+
