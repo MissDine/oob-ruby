@@ -111,10 +111,27 @@ puts name1.class
 
 class Dog
     attr_accessor :name, :age
-
+# Attributes
     def initialize 
         @name = name,
         @age = age
+    end    
+
+    # Behaviour
+    def bark
+        puts "woof"
+    end
+    
+    def howl
+        puts "awool"
+    end
+    
+    def fetch_ball
+        if age < 6
+            puts "#{name},will run excitedly to pick the ball"
+        else
+            "#{name},will walk slowly to pick the ball"    
+        end
     end    
 end    
 
