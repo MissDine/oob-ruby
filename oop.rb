@@ -168,3 +168,13 @@ puts "The total number of dogs is: #{Dog.get_total_no_of_dogs}"
 # Attr_writter - can be overwritten.
 
 # 100.times {puts "I'm sorry"}
+
+
+
+# PRINCIPLES OF OBJECT ORIENTED DESIGN
+# A program's design refers to the manner in which you, the programmer, organize and arrange its code 
+# BASIC RESPONSIBILITY PRINCIPLE
+# 1.The Single Responsibility Principle and Separation of Concerns-Each class shoul have a single responsibility and various concerns separated
+# 2.Abstraction and DRY-do not repeat yourself
+# 3.Line Limits on Methods and Classes-methods should not exceed 5 lines of code and classes should not exceed 100.
+# 4.Domain modelling- is a representation of real-world concepts in software. 
