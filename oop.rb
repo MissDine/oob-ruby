@@ -111,12 +111,17 @@ puts name1.class
 
 class Dog
     # class variable
-    @@total_no_of_dogs =
+    @@total_no_of_dogs = 0
     attr_accessor :name, :age
 # Attributes
     def initialize(name, age)
         @name = name,
         @age = age
+        @@total_no_of_dogs += 1
+    end    
+     # Class method
+    def self.get_total_no_of_dogs
+        @@total_no_of_dogs
     end    
 
     # Behaviour
@@ -148,3 +153,6 @@ puts "#{dog2.name} is #{dog2.age} years old"
 dog1.fetch_ball
 
 dog2.fetch_ball
+
+# We call a class method by calling the class .name of the class method
+puts "The total number of dogs is: #{Dog.get_total_no_of_dogs}"
