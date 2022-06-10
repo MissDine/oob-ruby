@@ -166,3 +166,5 @@ puts "The total number of dogs is: #{Dog.get_total_no_of_dogs}"
 
 # Attr_reader-can only be read hence kinda a constant
 # Attr_writter - can be overwritten.
+
+# 100.times {puts "I'm sorry"}
