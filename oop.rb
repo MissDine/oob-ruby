@@ -159,3 +159,10 @@ dog2.fetch_ball
 
 # We call a class method by calling the class .name of the class method
 puts "The total number of dogs is: #{Dog.get_total_no_of_dogs}"
+
+# When to use an instance vs class variable/method
+# Instance-when u want to relate logic to a specific instance of a class
+# Class -when there is logic that does not operate on a specific instance
+
+# Attr_reader-can only be read hence kinda a constant
+# Attr_writter - can be overwritten.
