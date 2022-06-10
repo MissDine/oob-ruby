@@ -135,9 +135,9 @@ class Dog
     
     def fetch_ball
         if age < 6
-            puts "#{name},will run excitedly to pick the ball"
+            puts "#{@name},will run excitedly to pick the ball"
         else
-            "#{name},will walk slowly to pick the ball"    
+            "#{@name},will walk slowly to pick the ball"    
         end
     end    
 end    
@@ -146,6 +146,9 @@ dog1 = Dog.new("Tommy", 3)
 
 dog2 = Dog.new("Kelsy", 9)
 
+dog3 = Dog.new("Jerry", 6)
+
+dog4 = Dog.new("lenny", 1)
 
 puts "#{dog1.name} is #{dog1.age} years old"
 puts "#{dog2.name} is #{dog2.age} years old"
