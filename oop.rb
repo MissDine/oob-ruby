@@ -29,16 +29,31 @@ class Car
     def reverse
         puts "mmmmh"
     end 
-    
-      
+
+    def fast
+        if @model == "Subaru"
+            puts "#{model},is very fast"
+        else
+            puts "#{model},is very slow"
+        end        
+    end  
 end    
 
 # create a new car - instance/object of class Car
+# car1 is an instancd of class Car
 car1 = Car.new
 # car1 will have all the attributes and behaviours of Car
 # we call any of this methods using the dot notation
 car1.reverse
 puts car1.model = "Subaru"
+puts car1.fast
+
+# INSTANCE AND CLASS VARIABLES/METHODS
+car2 = Car.new
+puts car2.model = "Premio"
+puts car2.fast
+
+# Instance variables are variables that are dependent ot tied to a specific object eg each car has a distict model and car
 
 
 puts 1.class
@@ -88,7 +103,6 @@ puts name1.class
 # puts name1.methods
 
 
-
-# INSTANCE AND CLASS VARIABLES/METHODS
+# CLASS VARIABLES
 
 
