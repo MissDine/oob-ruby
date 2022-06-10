@@ -104,5 +104,8 @@ puts name1.class
 
 
 # CLASS VARIABLES
-
+# Are independent of any object of a class
+# class methods can be called directly from a class by Class_Name.class_method syntax
+# class variables are denoted by @@
+# Class methods are denoted by the self keyword
 
