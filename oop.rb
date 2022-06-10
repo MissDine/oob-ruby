@@ -103,16 +103,18 @@ puts name1.class
 # puts name1.methods
 
 
-# CLASS VARIABLES
+# CLASS VARIABLES-are available across all objects
 # Are independent of any object of a class
 # class methods can be called directly from a class by Class_Name.class_method syntax
 # class variables are denoted by @@
 # Class methods are denoted by the self keyword
 
 class Dog
+    # class variable
+    @@total_no_of_dogs =
     attr_accessor :name, :age
 # Attributes
-    def initialize 
+    def initialize(name, age)
         @name = name,
         @age = age
     end    
@@ -135,3 +137,14 @@ class Dog
     end    
 end    
 
+dog1 = Dog.new("Tommy", 3)
+
+dog2 = Dog.new("Kelsy", 9)
+
+
+puts "#{dog1.name} is #{dog1.age} years old"
+puts "#{dog2.name} is #{dog2.age} years old"
+
+dog1.fetch_ball
+
+dog2.fetch_ball
