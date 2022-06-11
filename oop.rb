@@ -178,3 +178,9 @@ puts "The total number of dogs is: #{Dog.get_total_no_of_dogs}"
 # 2.Abstraction and DRY-do not repeat yourself
 # 3.Line Limits on Methods and Classes-methods should not exceed 5 lines of code and classes should not exceed 100.
 # 4.Domain modelling- is a representation of real-world concepts in software. 
+
+
+
+# SELF
+# we call the object method using their class name
+
